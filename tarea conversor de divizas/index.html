@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CONVERSOR DE DIVISAS</title>
+</head>
+<body>
+    <section>
+    <div class="container">
+        
+        
+    <h1 id="title">Conversor De Divisas</h1>
+    <div class="container-divi">
+
+    <div class="divisas1">
+        <label>
+        <h2>Divisa Base:</h2>
+    </label>
+        <select id="dropdown1">
+            <option id="usd1" value="dolar">Dolar</option>
+            <option id="eur1" value="euro">Euro</option>
+            <option id="gbp1" value="libra">Libra Esterlina</option>
+            <option id="mxn1" value="pesomx">Pesos Mexicanos</option>
+            <option id="cop1" value="pesoco">Pesos colombianos</option>
+            </select>
+        </div>
+<br><br>
+
+    <div>
+<label>
+    <h2>Ingrese El Monto</h2>
+</label>
+    <input id="monto" type="number" min="0" placeholder="ingrese el monto"><br><br>
+    </div>
+    <br>
+    
+        <div class="divisas2">
+            <label>
+            <h2>Divisa a Convertir</h2>
+        </label>
+        <select id="dropdown2">
+        <option id="usd2" value="dolar">Dolar</option>
+        <option id="eur2" value="euro">Euro</option>
+        <option id="gbp2" value="libra">Libra Esterlina</option>
+        <option id="mxn2" value="pesomx">Pesos Mexicanos</option>
+        <option id="cop2" value="pesoco">Pesos colombianos</option>
+    </select>
+    </div>
+   
+<br><br>
+
+<button id="submit">Convertir</button>
+</div>
+        </div>
+</section> 
+
+<h1 id="resultado"></h1>
+<br><br>
+<div id="result"></div>
+<footer id="pie-de-pagina">
+        <span>©OPYRIGHT 2021.</span>
+        <ul>
+            <li><a href="#">CONTACTO.</a><br><br>
+                <span >AXIEVER.</span><br>
+            </li>
+            <li><a href="#">INICIO.</a><br><br>
+                <span>COVERSOR</span>
+            </li>
+            <li><a href="https://www.datosmundial.com/monedas/">MONEDAS LOCALES.</a><br><br>
+            <span>EUR.</span>
+            <span>USD.</span>
+            <span>GBP.</span>
+            <span>MXN.</span>
+            <span>COP.</span>
+        </li>
+        </ul>
+    </footer>
+<script src="./script.js"></script>
+</body>
+
+</html>

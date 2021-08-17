@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/*------ Variables */
+
+/* :root { */
+    /*------ Colores */
+    /* --green-color: #7ACC2D;
+    --black-color: #313337;
+    --white-color: white; */
+    /*------ Tipografía */
+    /* --normal: 12px; */
+    /*------ Espaciado */
+    /* --space: 10px;
+    --space-2: 20px; */
+    /*------ Box shadow*/
+    /* --box: 0px 0 2px 1px #e6e5e9;
+} */
+
+
+/* -------------------------------------------  */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #313337;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+p,
+label {
+    font-size: 12px;
+    text-align: center; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    min-height: 60px;
+    background-color: #7ACC2D;
+}
+
+nav a {
+    text-decoration: none;
+    color: #313337;
+    font-size: 12px;
+}
+
+nav a img {
+    width: 95px;
+    height: 50px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding-right: 20px;
+    list-style: none;
+}
+
+hr {
+    opacity: .2;
+}
+
+
+/* ------------------------------------------- MAIN SECTION */
+
+.main_section {
+    text-align: center;
+    padding: 15%;
+}
+
+
+/* -------------------------------------------  PRODUCTOS */
+
+.products {
+    background-image: url("../images/curve.png");
+    padding: 15%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 95px;
+    background-size: cover;
+}
+
+.product {
+    padding: 20px;
+    margin-top: -226px;
+}
+
+.image-product {
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+    
+}
+
+.main_btn {
+    padding: 10px;
+    background-color: #7ACC2D;
+    width: 100%;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+}
+
+.main_btn:hover {
+    background-color: #63a426;
+}
+
+
+/* Beneficios */
+
+.beneficios {
+    padding: 10%;
+    display: flex;
+}
+
+.beneficio {
+    text-align: center;
+    padding: 20px;
+}
+
+.beneficio img {
+    max-height: 100px
+}
+
+.text_beneficio {
+    text-align: justify;
+}
+
+
+/* Mentions */
+
+.mentions {
+    display: flex;
+    padding: 5%;
+}
+
+.mention img {
+    width: 100%;
+}
+
+h2.mention_title {
+    text-align: center;
+}
+
+.mention {
+    padding: 10px;
+}
+
+.content_mention {
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.mention .text {
+    padding: 10px;
+}
+
+
+/* ------------------------------------------- Venta */
+
+.modulo_pago {
+    background-color: white;
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+    padding: 20px;
+}
+
+.modulo_pago_images {
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.data {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #313337;
+    box-sizing: border-box;
+
+}
+
+.modulo_pago .main_btn {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+/* ------------------------------------------- Footer */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    background-color: #313337;
+    padding: 10px;
+    color: white;
+    margin-bottom: auto;
+}

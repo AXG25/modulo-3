@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+}
+
+#id{
+    background-color: plum;
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 10px
+}
+
+#id2{
+    background-color: palevioletred;
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 40px
+}

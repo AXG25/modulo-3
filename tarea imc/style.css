@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body {
+    background-image: url('https://www.chismestoday.com/wp-content/uploads/2019/11/AdobeStock_76819333-1-1024x683.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-color: red;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0 auto;
+}
+
+.fondo{
+background-color:white;
+width: 40%;
+margin: 0 auto;
+}
+
+.titulo {
+    background-color:yellow;
+    box-shadow: 0px 3px 20px  rgb(94, 92, 92);
+    text-shadow: 3px 2.2px 2px rgb(53, 53, 53);
+}
+
+.formulario{
+    background-color:white;
+    font-size: 12px;
+}
+
+button {
+    width:35%
+}
+
+#btn-hombre {
+    border: solid 1px black;
+    background-color: rgb(114, 223, 250);
+}
+
+#btn-mujer{
+    border: solid 1px black;
+    background-color: rgb(250, 114, 232);
+}
+
+input {
+    width: 70%;
+}
+
+#input-edad{
+    background-color:rgb(136, 224, 65);
+    border: solid 1px black;
+    border-radius: 1px;
+}
+
+
+#input-peso{
+    background-color:rgb(251, 255, 8);
+    border: solid 1px black;
+    border-radius: 1px;
+}
+
+#input-altura{
+    background-color:rgb(255, 189, 8);
+    border: solid 1px black;
+    border-radius: 1px;
+}
+
+.btn {
+    background-color:yellow;
+    box-shadow: 0px 3px  20px  rgb(94, 92, 92);
+    
+    
+}
+
+#calcular-btn {
+    font-family: 'Varela Round', sans-serif;
+    background-color:yellow;
+    border-style: solid black;
+    font-size: x-large;
+    padding: 3px 9px;
+    border-top: 1px;
+    border-bottom: 1px;
+    margin-top: 2px;
+}
